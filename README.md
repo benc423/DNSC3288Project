@@ -64,11 +64,13 @@ model = LogisticRegression(random_state=0)
 | ------ | ------- | -------- |
 | 0.764 | 0.786 | 0.821 |
 
-| Group | Validation AIR |
+| Group | Test AIR |
 |-------|-----|
 | Second Class vs. First Class | 0.859 |
 | Third Class vs. First Class | 0.398 |
 
+#### Test Data Confusion Matrix
+![Confusion Matrix](heatmap.png)
 
 #### Correlation Heatmap
-![Correlation Heatmap](download.png)
+![Correlation Heatmap](heatmap.png)
