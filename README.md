@@ -70,7 +70,17 @@ model = LogisticRegression(random_state=0)
 | Third Class vs. First Class | 0.398 |
 
 #### Test Data Confusion Matrix
-![Confusion Matrix](heatmap.png)
+![Confusion Matrix](Test_cm.png)
 
 #### Correlation Heatmap
 ![Correlation Heatmap](heatmap.png)
+
+### Ethical Considerations
+## Negative impacts of using our model:
+* **Variables such as age, gender, and class (first, second, or third) may encode significant bias into the model's output.**
+* **Input**
+## uncertainties relating to the impacts of using your model:
+* **Input**
+* **Input**
+## Results
+* **
