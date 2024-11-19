@@ -6,7 +6,7 @@
 * **Model date**: November, 2024
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: [Titanic_Logistic_Regression_DNSC_3288.ipynb](https://github.com/benc423/DNSC3288Project/blob/main/Titanic_Logistic_Regression_DNSC_3288.ipynbhttps://github.com/benc423/DNSC3288Project/blob/main/Titanic_Logistic_Regression_DNSC_3288.ipynb)
+* **Model implementation code**: [Titanic_Logistic_Regression_DNSC_3288.ipynb](Titanic_Logistic_Regression_DNSC_3288.ipynb)
 
 ### Intended Use (Ask about this)
 * **Primary intended uses**: Predict who would survive in a sinking ship simmilar to the titanic, ideally under the same conditions.
