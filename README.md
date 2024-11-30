@@ -32,14 +32,14 @@
 | **Cabin**| input | str | Cabin Number |
 | **Embarked**| input | str | C = Cherbourg, Q = Queenstwon, S = Southampton |
 
-* **Source of training data**: Kaggle Competition: https://www.kaggle.com/code/alexisbcook/titanic-tutorial/input
+* **Source of training data**: Kaggle Competition: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
 * **How training data was divided into training and validation data**: 60% training, 20% validation, 20% test
 * **Number of rows in training and validation data**:
   * Training rows: 428
   * Validation rows: 143
 
 ### Test Data
-* **Source of test data**:  Kaggle Competition: https://www.kaggle.com/code/alexisbcook/titanic-tutorial/input
+* **Source of test data**: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
 * **Number of rows in test data**: 143
 * **State any differences in columns between training and test data**: None
 
