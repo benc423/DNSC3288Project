@@ -21,16 +21,16 @@
 | ---- | ------------- | ---------------- | ---------- |
 |**PassengerId**| ID | int | unique row indentifier |
 | **Survived** | target | binary | 1 = Survived, 0 = Perished |
-| **Pclass** | input | int | 1 = first, 2 = second, 3 = third |
-| **Name** | demographic information | str | name of passenger |
-| **Sex** | demographic information | str | male = male, female = female |
-| **Age** | demographic information | float | age of passenger in years |
+| **Pclass** | demographic information/input | int | 1 = first, 2 = second, 3 = third |
+| **Name** | demographic information/input | str | name of passenger |
+| **Sex** | demographic information/input | str | male = male, female = female |
+| **Age** | demographic information/input | float | age of passenger in years |
 | **SibSp** | demographic information | int | number of siblings/spouses aboard the Titanic |
 | **Parch** | demographic information | int | number of parents/children aboard the Titanic |
-| **Ticket** | inputs | str | Ticket Number |
-| **Fare** | inputs | float | Amount paid for ticket |
-| **Cabin**| input | str | Cabin Number |
-| **Embarked**| input | str | C = Cherbourg, Q = Queenstwon, S = Southampton |
+| **Ticket** | demographic information | str | Ticket Number |
+| **Fare** | demographic information | float | Amount paid for ticket |
+| **Cabin**| demographic information | str | Cabin Number |
+| **Embarked**| demographic information | str | C = Cherbourg, Q = Queenstwon, S = Southampton |
 
 * **Source of training data**: [train.csv](train.csv)
 * **How training data was divided into training and validation data**: 80% training, 20% validation
