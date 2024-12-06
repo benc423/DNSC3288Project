@@ -41,7 +41,7 @@
 ### Test Data
 * **Source of test data**: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
 * **Number of rows in test data**: 418
-* **State any differences in columns between training and test data**: None
+* **State any differences in columns between training and test data**: Test data does not have labels.
 
 ### Model details
 * **Columns used as inputs in the final model**: 'Age',
