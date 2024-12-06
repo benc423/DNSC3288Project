@@ -86,4 +86,5 @@ model = LogisticRegression(random_state=0)
 ## uncertainties relating to the impacts of using your model:
 * **If this model is applied beyond its educational scope, its effectiveness remains uncertain.**
 
-Kaggle Competition: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
+### References
+* **Kaggle notebook: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb**
