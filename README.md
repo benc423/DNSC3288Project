@@ -83,7 +83,7 @@ model = LogisticRegression(random_state=0)
 ## Negative impacts of using our model:
 * **Variables such as age, gender, and class (first, second, or third) were used as inputs in our model. By using demographic data as inputs, the model inherently encodes bias into its outputs. Consequently, the results and predictions of this model may lead to unfair or discriminatory outcomes.**
 
-## uncertainties relating to the impacts of using your model:
+## Uncertainties relating to the impacts of using your model:
 * **If this model is applied beyond its educational scope, its effectiveness remains uncertain.**
 
 ### References
