@@ -22,7 +22,7 @@
 |**PassengerId**| ID | int | unique row indentifier |
 | **Survived** | target | binary | 1 = Survived, 0 = Perished |
 | **Pclass** | demographic information/input | int | 1 = first, 2 = second, 3 = third |
-| **Name** | demographic information/input | str | name of passenger |
+| **Name** | demographic information | str | name of passenger |
 | **Sex** | demographic information/input | str | male = male, female = female |
 | **Age** | demographic information/input | float | age of passenger in years |
 | **SibSp** | demographic information | int | number of siblings/spouses aboard the Titanic |
@@ -41,7 +41,7 @@
 ### Test Data
 * **Source of test data**: [test.csv](test.csv)
 * **Number of rows in test data**: 418
-* **State any differences in columns between training and test data**: Test data does not have labels.
+* **Differences in columns between training and test data**: Test data does not have labels.
 
 ### Model details
 * **Columns used as inputs in the final model**: 'Age',
@@ -57,7 +57,7 @@ model = LogisticRegression(random_state=0)
 ```
 ### Quantitative Analysis
 
-* Models were assessed primarily with AUC and AIR. See details below:
+* Models were assessed primarily with AUC, Accuracy, and AIR. See details below:
 
 | Train AUC | Validation AUC |
 | ------ | ------- | 
@@ -81,7 +81,7 @@ model = LogisticRegression(random_state=0)
 
 ### Ethical Considerations
 ## Negative impacts of using our model:
-* **Variables such as age, gender, and class (first, second, or third) were used as inputs in our model. By using demogrpahic data as inputs, the model is encoding bias into its outputs. Therefore, the results/prediction of this model can lead to unfair or discriminatory outcomes.**
+* **Variables such as age, gender, and class (first, second, or third) were used as inputs in our model. By using demographic data as inputs, the model inherently encodes bias into its outputs. Consequently, the results and predictions of this model may lead to unfair or discriminatory outcomes.**
 
 ## uncertainties relating to the impacts of using your model:
 * **If this model is applied beyond its educational scope, its effectiveness remains uncertain.**
