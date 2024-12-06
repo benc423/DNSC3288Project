@@ -68,7 +68,7 @@ model = LogisticRegression(random_state=0)
 | 0.793 | 0.832 | 0.761|
 
 
-| Group | Test AIR |
+| Group | Validation AIR |
 |-------|-----|
 | Second Class vs. First Class | 0.859 |
 | Third Class vs. First Class | 0.398 |
