@@ -63,7 +63,7 @@ model = LogisticRegression(random_state=0)
 | ------ | ------- | 
 | 0.764 | 0.786 |
 
-| Train Accuracy | Validation Accuracy | Test Accuracy |
+| Train Accuracy | Validation Accuracy | Test Accuracy* |
 | ------ | ------- | -------- |
 | 0.793 | 0.832 | 0.761|
 
