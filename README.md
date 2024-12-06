@@ -8,7 +8,7 @@
 * **License**: MIT
 * **Model implementation code**: [Titanic_Logistic_Regression_DNSC_3288.ipynb](Titanic_Logistic_Regression_DNSC_3288.ipynb)
 
-### Intended Use (Ask about this)
+### Intended Use
 * **Primary intended uses**: Educational purposes.
 * **Primary intended users**: Students exploring titanic dataset.
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
