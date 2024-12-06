@@ -9,7 +9,7 @@
 * **Model implementation code**: [Titanic_Logistic_Regression_DNSC_3288.ipynb](Titanic_Logistic_Regression_DNSC_3288.ipynb)
 
 ### Intended Use (Ask about this)
-* **Primary intended uses**: Predict who would survive in a sinking ship simmilar to the titanic, ideally under the same conditions.
+* **Primary intended uses**: Educational purposes.
 * **Primary intended users**: Students exploring titanic dataset.
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
