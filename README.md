@@ -33,14 +33,14 @@
 | **Embarked**| input | str | C = Cherbourg, Q = Queenstwon, S = Southampton |
 
 * **Source of training data**: Kaggle Competition: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
-* **How training data was divided into training and validation data**: 60% training, 20% validation, 20% test
+* **How training data was divided into training and validation data**: 80% training, 20% validation
 * **Number of rows in training and validation data**:
-  * Training rows: 428
+  * Training rows: 571
   * Validation rows: 143
 
 ### Test Data
 * **Source of test data**: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
-* **Number of rows in test data**: 143
+* **Number of rows in test data**: 418
 * **State any differences in columns between training and test data**: None
 
 ### Model details
@@ -59,9 +59,14 @@ model = LogisticRegression(random_state=0)
 
 * Models were assessed primarily with AUC and AIR. See details below:
 
-| Train AUC | Validation AUC | Test AUC |
+| Train AUC | Validation AUC |
+| ------ | ------- | 
+| 0.764 | 0.786 |
+
+| Train Accuracy | Validation Accuracy | Test Accuracy |
 | ------ | ------- | -------- |
-| 0.764 | 0.786 | 0.821 |
+| 0.793 | 0.832 | 0.761|
+
 
 | Group | Test AIR |
 |-------|-----|
