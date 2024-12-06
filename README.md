@@ -77,7 +77,6 @@ model = LogisticRegression(random_state=0)
 ### Ethical Considerations
 ## Negative impacts of using our model:
 * **Variables such as age, gender, and class (first, second, or third) were used as inputs in our model. By using demogrpahic data as inputs, the model is encoding bias into its outputs. Therefore, the results/prediction of this model can lead to unfair or discriminatory outcomes.**
-* **Input**
+
 ## uncertainties relating to the impacts of using your model:
-* **Input**
-* **Input**
+* **If this model is applied beyond its educational scope, its effectiveness remains uncertain**
