@@ -32,14 +32,14 @@
 | **Cabin**| input | str | Cabin Number |
 | **Embarked**| input | str | C = Cherbourg, Q = Queenstwon, S = Southampton |
 
-* **Source of training data**: Kaggle Competition: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
+* **Source of training data**: [train.csv](train.csv)
 * **How training data was divided into training and validation data**: 80% training, 20% validation
 * **Number of rows in training and validation data**:
   * Training rows: 571
   * Validation rows: 143
 
 ### Test Data
-* **Source of test data**: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
+* **Source of test data**: [test.csv](test.csv)
 * **Number of rows in test data**: 418
 * **State any differences in columns between training and test data**: Test data does not have labels.
 
@@ -85,3 +85,5 @@ model = LogisticRegression(random_state=0)
 
 ## uncertainties relating to the impacts of using your model:
 * **If this model is applied beyond its educational scope, its effectiveness remains uncertain.**
+
+Kaggle Competition: https://github.com/jeffprosise/Machine-Learning/blob/master/Titanic%20(Logistic%20Regression).ipynb
