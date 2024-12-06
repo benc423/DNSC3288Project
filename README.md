@@ -74,7 +74,7 @@ model = LogisticRegression(random_state=0)
 | Third Class vs. First Class | 0.398 |
 
 #### Test Data Confusion Matrix
-![Confusion Matrix](Test_cm.png)
+![Confusion Matrix](Vali_cm.png)
 
 #### Correlation Heatmap
 ![Correlation Heatmap](heatmap.png)
