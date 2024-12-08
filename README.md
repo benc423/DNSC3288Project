@@ -47,7 +47,7 @@
 * **Columns used as inputs in the final model**: 'Age',
        'Sex_female', 'Sex_male', 'Pclass_1', 'Pclass_2', 'Pclass_3'
 * **Column(s) used as target(s) in the final model**: 'Survived'
-* **Type of model**: Logistic Regression 
+* **Type of model**: Logistic regression 
 * **Software used to implement the model**: Python, scikit-learn, seaborn, pandas
 * **Version of the modeling software**: Python: 3.10.12, sklearn: 1.5.2, Seaborn: 0.13.2, Pandas: 2.2.2
 * **Hyperparameters or other settings of your model**: 
